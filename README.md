@@ -8,6 +8,10 @@ Small tools to visualize how you can use your own hand gestures to interact with
  - Volume control by pinching fingers
  - Mouse movement with pointer finger
 
+How does it work
+---
+I'm using Google’s framework – MediaPipe, which provided me with a 3D Hand Landmark model. Using machine learning techniques, it pinpoints the location of 21 landmarks on the hand in every single frame. However, the actual movements themselves are carried out by Python’s automation library - pyautogui, which is mainly used for clicking, dragging, scrolling, moving, etc.**
+
 *Installation guide*
 --- 
 The installation is pretty straightforward:
